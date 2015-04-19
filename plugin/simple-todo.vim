@@ -55,17 +55,12 @@ inore <Plug>(simple-todo-mark-as-undone) <Esc>:s/^\(\s*[-+*]\?\s*\)\[x\]/\1[ ]/<
 
 if g:simple_todo_map_keys
   nmap <Leader>i <Plug>(simple-todo-new)
-  imap <Leader>i <Plug>(simple-todo-new)
   nmap <Leader>o <Plug>(simple-todo-below)
-  imap <Leader>o <Plug>(simple-todo-below)
   nmap <Leader>O <Plug>(simple-todo-above)
-  imap <Leader>O <Plug>(simple-todo-above)
   nmap <Leader>x <Plug>(simple-todo-mark-as-done)
   vmap <Leader>x <Plug>(simple-todo-mark-as-done)
-  imap <Leader>x <Plug>(simple-todo-mark-as-done)
   nmap <Leader>X <Plug>(simple-todo-mark-as-undone)
   vmap <Leader>X <Plug>(simple-todo-mark-as-undone)
-  imap <Leader>X <Plug>(simple-todo-mark-as-undone)
 endif
 
 " }}}
